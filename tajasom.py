@@ -44,7 +44,3 @@ def check_answer(message):
             bot.reply_to(message, random.choice(list_rond_phase2))
 
 bot.infinity_polling()
-
-python-telegram-bot
-  gunicorn
-  flask 
